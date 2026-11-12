@@ -45,6 +45,11 @@
     .contact-box { text-align:center; padding:34px; background:#0f172a; color:#fff; border-radius:20px; }
     .contact-box p { color:#d7deea; }
     .contact-box .button.secondary { border-color:#fff; color:#0f172a; }
+    .contact-box .buttons { justify-content:center; margin-top:22px; }
+    .contact-details { margin:20px auto 0; max-width:38rem; }
+    .contact-details strong { color:#fff; }
+    .contact-address { margin-top:18px; font-size:.95rem; }
+    .contact-address a { color:#fff; overflow-wrap:anywhere; }
     footer { padding:34px 0 44px; color:var(--muted); font-size:.9rem; text-align:center; }
     @media (max-width:760px) {
       header { position:static; }
@@ -161,8 +166,15 @@
         <div class="contact-box">
           <h2>お問い合わせ</h2>
           <p>受講についてのご質問やご相談はこちらからどうぞ。</p>
-          <a class="button secondary" href="mailto:koriyamanaohiro@outlook.jp">メールで問い合わせる</a>
-          <p style="margin-top:18px;font-size:.9rem;">koriyamanaohiro@outlook.jp</p>
+          <div class="contact-details">
+            <p><strong>電話受付：日曜日 10:00～21:00</strong><br>その他の曜日は、メールまたはSMSをご利用ください。<br>SMSには、お名前と「受講相談希望」とご記入ください。確認後にご連絡します。</p>
+          </div>
+          <div class="buttons">
+            <a class="button secondary" href="tel:07091744628">電話をかける</a>
+            <a class="button secondary" href="sms:07091744628?body=%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%E5%8F%97%E8%AC%9B%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B">SMSを送る</a>
+            <a class="button secondary" href="mailto:n.koriyan@gmail.com?subject=%E5%8F%97%E8%AC%9B%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B">メールで問い合わせる</a>
+          </div>
+          <p class="contact-address"><a href="tel:07091744628">070-9174-4628</a><br><a href="mailto:n.koriyan@gmail.com">n.koriyan@gmail.com</a></p>
         </div>
       </div>
     </section>
