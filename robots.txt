@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koriyamanaohiro.github.io/online-school/sitemap.xml
